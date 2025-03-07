@@ -1,3 +1,0 @@
-- Investigación d elas palabras clave
-- Implementacion de las etiquetas meta. 
-- Hacer documento de robots.txt
