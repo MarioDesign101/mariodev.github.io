@@ -1,0 +1,12 @@
+* Es importante verificar el sitio y poner a un propietario https://support.google.com/webmasters/answer/9008080?hl=es#html_verification
+<meta name="google-site-verification" content="...">
+
+* Prácticas recomendadas para el uso de vínculos a sitios
+Por el momento, los vínculos a sitios son automáticos. Trabajamos constantemente para mejorar nuestros algoritmos de vínculos a sitios y es posible que en el futuro incorporemos los comentarios de los propietarios de los sitios. Mientras tanto, puedes seguir algunas prácticas recomendadas para mejorar la calidad de tus vínculos a sitios.
+
+Asegúrate de que el texto de los títulos y encabezados de las páginas sea informativo, relevante y concreto.
+Crea una estructura lógica del sitio que facilite la navegación a los usuarios y asegúrate de incluir vínculos a tus páginas importantes desde otras páginas relevantes.
+Asegúrate de que el texto de anclaje de los vínculos internos sea conciso y relevante en relación a la página de destino.
+Evita las repeticiones en el contenido.
+
+* El atributo data-nosnippet

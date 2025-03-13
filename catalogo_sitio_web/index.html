@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta http-equiv="content-script-type" content="text/javascript"> 
+    <meta http-equiv="content-style-type" content="text/css">
+    <meta http-equiv="cache-control" content="public">
+    <meta http-equiv="cache-control" content="max-age=160000">
+    <meta http-equiv="expires" content="Thu, 30 Dic 2025 1:00:00 GMT">
+    <meta name="google" content="sitelinkssearchbox">
+    <!-- <meta http-equiv="refresh" content="3000"> "10; https://www.google.com.mx/" También podemos usar la refreshetiqueta meta para redirigir una página a un destino específico. El siguiente ejemplo nos llevará a example.com después de ver la página durante 5 segundos.    -->
+    <meta name="theme-color" content="#003b6a"> <!--Color del texto fuera del meta viewport-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#003b6a"> <!--Color de la pantalla fuera del meta viewport-->
+    <meta name="distribuition" content="global">
+    <meta name="robots" content="index, follow, all, max-snippet:-1"> <!--Index (se toma por defecto), Follow (se toma por defecto), Noindex (se tiene que especificar cuando no queremos que indexe una página), Nofollow (se tiene que especificar cuando no queremos que siga los enlaces de una página)-->
+    <meta name="googlebot" content="index, follow, all">
+    <meta name="google" content="translate">
+    <!-- Etiquetas OG -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Bosch Servicio Rak - Servicios mecanicos de la mejor calidad"> <!-- Atributos title, description y url y type || título de tu página o tu post-->
+    <meta property="og:description" content="En Servicio Rak ofrecemos servicios de reparación, mantenimiento y diagnóstico automotriz de calidad, ¡para que tu vehículo siempre esté como nuevo!">
+    <meta property="og:url" content="https://www.boschserviciorak.com.mx/" />
+    <meta property="og:image" content="https://www.boschserviciorak/config/img/Bosch_Car_Service_Logo_1999.svg"/>
+    <meta property="og:video" content="">
+    <meta property="og:site_name" content="Bosch Servicio Rak - Servicios mecanicos de la mejor calidad" />
+    <!-- Open Graph data -->
+    <!-- <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="Mario Developer - Diseñador y desarrollador web">
+    <meta property="twitter:description" content="Descubre como aumentar ventas y credibilidad teniendo el sitio web ideal para tu negocio">
+    <meta property="twitter:url" content="https://www.mariodev.com">
+    <meta property="twitter:image" content="https://www.mariodev.com/img/Mario Design - Diseñador y Desarrollador web.webp"> -->
+    <!-- Twitter cards -->
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="revisit-after" content="7 days">
+    <meta name="keywords" content="taller mecánico, taller mecánico cerca de mi, taller mecánico automotriz"> <!--maximo 3-->
+    <meta name="description" content="
+    En Servicios Rak ofrecemos servicios de reparación, mantenimiento y diagnóstico automotriz de calidad, ¡para que tu vehículo siempre esté como nuevo!"> <!--Descripcion de 150m- 160 caracteres-->
+    <meta name="copyright" content="Bosch servicio Rak">
+    <meta name="author" content="Bosch servicio Rak"> <!--El nombre del autor-->
+    <meta name="lenguage" content="spanish"> 
+    <meta name="audience" content="all">
+    <meta name="category" content="Taller mecanico"> 
+    <!-- itemprop --><!--https://developers.google.com/search/docs?hl=es-->
+    <meta itemprop="name" content="Bosch Car Service - Servicio Rak"> 
+    <meta itemprop="description" content="En Servicio Rak ofrecemos servicios de reparación, mantenimiento y diagnóstico automotriz de calidad, ¡para que tu vehículo siempre esté como nuevo!">
+    <!-- https://support.google.com/webmasters/answer/9008080?hl=es#html_verification -->
+    <!-- <meta itemprop="image" content="">  -->
+        <!-- itemprop -->
+    <link rel="icon" href="config/img/Bosch_Car_Service_Logo_1999.svg.png" type="image/x-icon">
+    <link rel="canonical" href="https://www.boschserviciorak.com.mx"> <!--ENLACE OPCIONAL-->
+    <link rel="stylesheet" href="config/sass/estilos.css">
+    <link rel="stylesheet" href="config/sass/normalize.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <base href="https://www.mariodev.com/"> -->
+    <title>Bosh Car Service | Servicio Rak</title>
+</head>
+<body>
+    <header>
+            <div class="logo">
+               <a href="index.html"> <img src="config/img/Bosch_Car_Service_Logo_1999.svg.png" loading="lazy" alt="Bosch Car service - Servicios Rak"></a>
+                <span class="logo__title">Servicio Rak</span>
+            </div>
+            <span class="icon-menu" id="icon-menu">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="conocenos/">Conocenos</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="servicios/">Servicios<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li class="submenu__item">
+                                <a href="">Servicios de mantenimiento</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="">Preventivos</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="">Reparaciones mayores</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="">Servicio a la suspención y dirección</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="">Cambio de Clutch</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a href="citas/">Agendar cita</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="contacto/">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <main class="contenedor">
+        <section class="bannerIndex">
+            <div class="bannerIndex__txt">
+                <h1 class="max-titulo">Servicio <strong>R</strong>ak</h1>
+            <h2 class="titulo">Taller mecánico automotriz.</h2>
+            <p class="texto">Estamos dedicados a brindar servicios mecánicos de alta calidad para vehículos de todo tipo. Con años de experiencia garantizamos que tu vehículo estará en las mejores manos.</p>
+            <a href="citas/index.html">Agendar cita</a>
+            </div>
+            <div class="bannerIndex__slider">
+               <div class="slider__container">
+                <div class="slide">
+                    <div class="slider__item">
+                        <img src="config/img/1.jpg" loading="lazy" alt="">
+                    </div>
+                    <!-- <div class="slider__item">
+                        <img src="config/img/2.jpg" loading="lazy" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="config/img/3.jpg" loading="lazy" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="config/img/4.jpg" loading="lazy" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="config/img/5.jpg" loading="lazy" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="config/img/6.jpg" loading="lazy" alt="">
+                    </div> -->
+                </div>
+               </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footerNone" style="display: none;">
+    </footer>
+    <script src="config/js/submenu.js"></script>
+</body>
+</html>
